@@ -20,13 +20,16 @@ label, input {
 
 label {
     padding: 1rem;
+    font-size: larger;
 }
 
 input {
-    padding: 0.4rem;
+    padding: 0.7rem;
     border-radius: 0.5rem;
     background-color: #5eead4;
     color: black;
+    text-align: center;
+    width: 17%;
 }
 
 button {

@@ -8,3 +8,4 @@ A VanillaJS app to know whether your birthday is lucky or not.
 
 ## Features
 1. Empty input validation.
+2. Use of CSS in JS.

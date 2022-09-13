@@ -2,6 +2,7 @@ const dateOfBirth = document.querySelector("#dob");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkBtn = document.querySelector(".btn-check");
 const result = document.querySelector(".output");
+const outputImage = document.querySelector("#image");
 
 checkBtn.addEventListener('click', checkDobIsLucky);
 
@@ -26,8 +27,10 @@ function calculateSum(birthDate) {
 function compareValues(sum, luckyNumber) {
     if (sum % luckyNumber === 0) {
         result.innerText = "Yayy! Your Birthday is lucky 🤩";
+        outputImage.src = "/images/happy.svg";
     } else {
         result.innerText = "Oops! Your birthday is not lucky 😢";
+        outputImage.src = "/images/sad.svg";
     }
 }
 

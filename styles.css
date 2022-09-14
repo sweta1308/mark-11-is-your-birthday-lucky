@@ -61,3 +61,27 @@ button {
 img{
     width: 200px;
 }
+
+.footer {
+    padding: 1rem 0rem;
+    text-align: center;
+    color: #fdba74;
+    margin-top: 3rem;
+}
+
+.footer .link {
+    color: #fdba74;
+    text-decoration: none;
+
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer li {
+    display: inline;
+    padding: 1rem;
+    text-align: center;
+}
